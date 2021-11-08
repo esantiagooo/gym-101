@@ -1,8 +1,19 @@
 const searchInput = () => document.querySelector("#search-input")
 const upperUl = () => document.querySelector("#upper-list")
 
-const fetchUpper = () => {
+const handleErrorDisplay = (error) => {
+    console.log(error)
+}
 
+const displayUpper = (upper) => {
+    console.log(upper)
+}
+
+const fetchUpper = () => {
+    fetch("http://localhost:3000/upper")
+    .then(resp => resp.json())
+    .then(upper => displayUpper(upper))
+    .catch(error => handleErrorDisplay(error))
 }
 
 const handlePageLoaded = () => {
