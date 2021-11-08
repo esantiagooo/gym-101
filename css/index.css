@@ -9,3 +9,20 @@ body {
     flex-direction: row;
     perspective: 800px;
 }
+
+.upper-card {
+    border: solid;
+    width: auto;
+    left: 20%;
+    right: 20%;
+    border-color: coral;
+    margin: 0.5em;
+    padding: .5em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.purple{
+    background-color: purple;
+}

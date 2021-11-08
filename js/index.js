@@ -5,8 +5,50 @@ const handleErrorDisplay = (error) => {
     console.log(error)
 }
 
+const returnNone = () => {
+
+}
+
+const makeUpperTile = (upper) => {
+    const div = document.createElement("div")
+    div.id = `upper-card-${upper.id}`
+    div.className = 'upper-card'
+
+    const title = document.createElement("h2")
+    title.textContent = upper.exerciseName
+
+    const span = document.createElement("span")
+    span.className = "upper-details"
+    span.textContent = `
+        targetedMuscle: ${upper.targetedMuscle} - exceriseEquipment: ${upper.exceriseEquipment} - mechanicsType: ${upper.mechanicsType}`
+    
+    div.addEventListener("mouseenter", function(event){
+        //event.target.style.backgroundColor = "purple";
+        event.target.classList.add("purple")
+        setTimeout(function(){
+            //event.target.style.backgroundColor = "black";
+            event.target.classList.remove("purple")
+        },500)
+    }, false);
+
+
+    //let upperUl = document.getElementById("upperUl")
+    //upperUl.addEventListener("mouseenter", function(){
+     //   event.target.style.color = "purple";
+     //   setTimeout(function(){
+     //       event.target.style.color = " ";
+     //   }, 500);
+    //}, false);
+        div.append(title, span)
+    upperUl().appendChild(div)    
+}
+
 const displayUpper = (upper) => {
-    console.log(upper)
+    if (upper.length > 0) {
+        upper.forEach(upper => makeUpperTile(upper))  
+    } else {
+        returnNone()
+    }
 }
 
 const fetchUpper = () => {
