@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/index.js"></script>
     <title>Gym 101</title>
 </head>
 <body>
-    <div id="title-selection"></div>
-    <div id = "background"></div>
-    <div id="search"></div>
-    <div id= "workouts"></div>
-    <div id= "branding"></div>
+    <div class= "hide" id="title-selection">
+        <h2>GYM 1O1</h2>
+    </div>
+    <div class= "section" id = "background"></div>
+    <div class= "section" id="search">
+        <input type="text" id="search-input" placeholder="search exercise">
+    </div>
+    <div class= "section" id= "upper">
+        <h2 id="upper-header"></h2>
+        <ul id="upper-list"></ul>
+    </div>
+    <footer class="branding">
+        <small>&copy; 2021 <strong>GymRat</strong></small>
+    </footer>
 </body>
 </html>
