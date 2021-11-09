@@ -5,7 +5,12 @@ const handleErrorDisplay = (error) => {
     console.log(error)
 }
 
-const handleSearch
+const handleSearch = (e) => {
+    debugger
+    const searchInput = e.target.value
+    upperUl().innerHTML =""
+    const selectedUpper
+}
 
 const returnNone = () => {
 
@@ -62,7 +67,7 @@ const fetchUpper = () => {
 
 const handlePageLoaded = () => {
     fetchUpper()
-    searchInput().addEventListener("change, handleSearch")
+    searchInput().addEventListener("change", handleSearch)
 }
 
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
