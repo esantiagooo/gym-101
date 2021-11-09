@@ -8,8 +8,14 @@ const handleErrorDisplay = (error) => {
 const handleSearch = (e) => {
     debugger
     const searchInput = e.target.value
-    upperUl().innerHTML =""
-    const selectedUpper
+    upperUl().innerHTML = ""
+    const selectedUpper = upperArray.filter(upper => upper.exerciseName.toLowerCase().startsWith(searchInput.toLowerCase()))
+    if (searchInput === "" || selectedUpper.length === 0) {
+        returnNone()
+    } else {
+        selectedUpper.forEach(makeUpperTile)
+    }
+    selectedUpper().value = ""
 }
 
 const returnNone = () => {
