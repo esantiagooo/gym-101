@@ -1,21 +1,23 @@
 const searchInput = () => document.querySelector("#search-input")
 const upperUl = () => document.querySelector("#upper-list")
+let upperArray = []
 
 const handleErrorDisplay = (error) => {
     console.log(error)
 }
 
 const handleSearch = (e) => {
-    debugger
     const searchInput = e.target.value
     upperUl().innerHTML = ""
     const selectedUpper = upperArray.filter(upper => upper.exerciseName.toLowerCase().startsWith(searchInput.toLowerCase()))
-    if (searchInput === "" || selectedUpper.length === 0) {
-        returnNone()
-    } else {
+    if (searchInput === "") {
+        upperArray.forEach(makeUpperTile)
+    } else if (selectedUpper.length === 0) {
+       returnNone()
+    } else{
         selectedUpper.forEach(makeUpperTile)
     }
-    selectedUpper().value = ""
+    //selectedUpper().value = ""
 }
 
 const returnNone = () => {
@@ -57,6 +59,7 @@ const makeUpperTile = (upper) => {
 }
 
 const displayUpper = (upper) => {
+    upperArray = upper
     if (upper.length > 0) {
         upper.forEach(upper => makeUpperTile(upper))  
     } else {
