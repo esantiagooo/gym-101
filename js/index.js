@@ -45,6 +45,10 @@ const makeUpperTile = (upper) => {
             event.target.classList.remove("purple")
         },500)
     }, false);
+    div.addEventListener("click", flipCard);
+    function flipCard(){
+        div.classList.toggle("flipCard")
+    }
 
 
     //let upperUl = document.getElementById("upperUl")

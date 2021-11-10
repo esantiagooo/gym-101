@@ -26,3 +26,35 @@ body {
 .purple{
     background-color: purple;
 }
+#title-section h2, #show-header {
+    font-family: 'Anton', sans-serif; ;
+    margin: 0;
+    font-size: 3.5em;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+}
+
+.front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: coral;
+    color: white;
+    text-align: center;
+}
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: cornsilk;
+    color: wheat;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
+.flipCard{
+    transform: rotateY(180deg);
+}
