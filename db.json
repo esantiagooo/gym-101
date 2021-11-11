@@ -3,8 +3,8 @@
         {
             "id": 0,
             "exerciseName": "barbell bench press",
-            "targetedMuscle": "chest, triceps, shoulders",
-            "exceriseEquipment": "barbell",
+            "muscle": "chest, triceps, shoulders",
+            "equipment": "barbell",
             "mechanicsType": "compound",
             "url":"http://www.bodybuilding.com/fun/bench1big.jpg"
 
@@ -12,16 +12,16 @@
         {
             "id": 1,
             "exerciseName": "dumbbell bench press",
-            "targetedMuscle": "chest, triceps, shoulders",
-            "exceriseEquipment": "dumbbell",
+            "muscle": "chest, triceps, shoulders",
+            "equipment": "dumbbell",
             "mechanicsType":"compound",
             "url": "https://s3.amazonaws.com/prod.skimble/assets/1350157/image_iphone.jpg"
         },
         {
             "id": 2,
             "exerciseName": "flat dumbbell flyes",
-            "targetedMuscle": "chest, triceps, shoulders",
-            "exceriseEquipment": "dumbbell",
+            "muscle": "chest, triceps, shoulders",
+            "equipment": "dumbbell",
             "mechanicsType": "compound",
             "url": "https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1492639415820-B9DBFF7C4RRNCLZR68VS/Flat+dumbbell+Fly?format=1000w"
 
@@ -29,8 +29,8 @@
         {
             "id": 3,
             "exerciseName": "flat bench cable flyes",
-            "targetedMuscle": "chest, shoulders",
-            "exceriseEquipment": "cable",
+            "muscle": "chest, shoulders",
+            "equipment": "cable",
             "mechanicsType": "isolation",
             "url": "https://cdn-0.weighttraining.guide/wp-content/uploads/2017/09/cable-fly-resized.png?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1"
 
@@ -38,8 +38,8 @@
         {
             "id": 4,
             "exerciseName": "dips",
-            "targetedMuscle": "chest, triceps, shoulders",
-            "exceriseEquipment": "bodyonly",
+            "muscle": "chest, triceps, shoulders",
+            "equipment": "bodyonly",
             "mechanicsType": "compound",
             "url":"https://upload.wikimedia.org/wikipedia/commons/5/59/Dipexercise.svg"
 
@@ -47,8 +47,8 @@
         {
             "id": 5,
             "exerciseName": "pushups",
-            "targetedMuscle": "chest, triceps, shoulders",
-            "exceriseEquipment": "bodyonly",
+            "muscle": "chest, triceps, shoulders",
+            "equipment": "bodyonly",
             "mechanicsType": "compound",
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Push_up_%28PSF%29.png/1920px-Push_up_%28PSF%29.png"
 
@@ -56,8 +56,8 @@
         {
             "id": 6,
             "exerciseName": "smith machine bench press",
-            "targetedMuscle": "chest, triceps, shoulders",
-            "exceriseEquipment": "machine",
+            "muscle": "chest, triceps, shoulders",
+            "equipment": "machine",
             "mechanicsType": "compound",
             "url": "https://thumbs.dreamstime.com/z/exercising-decline-smith-machine-bench-press-bodybuilding-target-muscles-marked-red-initial-final-steps-66940094.jpg"
 
@@ -65,8 +65,8 @@
         {
             "id": 7,
             "exerciseName": "machine chest press",
-            "targetedMuscle": "chest, triceps, shoulders",
-            "exceriseEquipment": "machine",
+            "muscle": "chest, triceps, shoulders",
+            "equipment": "machine",
             "mechanicsType": "compound", 
             "url": "https://cdn-0.weighttraining.guide/wp-content/uploads/2016/12/machine-chest-press-resized.png?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1"
 
@@ -74,8 +74,8 @@
         {
             "id": 8,
             "exerciseName": "straight arm dumbbell pullover",
-            "targetedMuscle": "chest",
-            "exceriseEquipment": "dumbbell",
+            "muscle": "chest",
+            "equipment": "dumbbell",
             "mechanicsType": "compound",
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pullover_%28exercise%29_2_in_1.jpg"
 
@@ -83,8 +83,8 @@
         {
             "id": 9,
             "exerciseName": "cable crossover",
-            "targetedMuscle": "chest, shoulders",
-            "exceriseEquipment": "cable",
+            "muscle": "chest, shoulders",
+            "equipment": "cable",
             "mechanicsType": "isolation",
             "url": "https://viceversar.com/wp-content/uploads/2020/04/cable-crossovers..jpg"
 
@@ -92,8 +92,8 @@
         {
             "id": 10,
             "exerciseName": "isometric chest squeezes",
-            "targetedMuscle": "chest, biceps",
-            "exceriseEquipment": "bodyonly",
+            "muscle": "chest, biceps",
+            "equipment": "bodyonly",
             "mechanicsType": "compound",
             "url": "https://www.gymvisual.com/5986-large_default/isometric-chest-squeeze.jpg"
 
@@ -101,160 +101,160 @@
         {
             "id": 11,
             "exerciseName": "barbell deadlift",
-            "targetedMuscle": "legs, back, shoulders, arms",
-            "exceriseEquipment": "barbell",
+            "muscle": "legs, back, shoulders, arms",
+            "equipment": "barbell",
             "mechanicsType": "compound",
             "url": "https://thumbs.dreamstime.com/z/exercising-deadlifts-barbell-bodybuilding-target-muscles-marked-red-initial-final-steps-43605848.jpg"  
         },
         {
             "id": 12,
             "exerciseName": "barbell bent-over row",
-            "targetedMuscle": "traps, deltoids, back",
-            "exceriseEquipment": "barbell",
+            "muscle": "traps, deltoids, back",
+            "equipment": "barbell",
             "mechanicsType": "compound",
             "url": "https://www.gymvisual.com/9640-large_default/barbell-bent-over-row-female.jpg" 
         },
         {
             "id": 13,
             "exerciseName": "pull up",
-            "targetedMuscle": "back, lats, biceps",
-            "exceriseEquipment": "bodyonly",
+            "muscle": "back, lats, biceps",
+            "equipment": "bodyonly",
             "mechanicsType": "compound",
             "url":"https://thumbs.dreamstime.com/z/exercising-pull-ups-brachialis-bodybuilding-target-muscles-marked-red-57379060.jpg"
         },
         {
             "id": 14,
             "exerciseName": "dumbbell single-arm row",
-            "targetedMuscle": "back, lats, biceps",
-            "exceriseEquipment": "dumbbell",
+            "muscle": "back, lats, biceps",
+            "equipment": "dumbbell",
             "mechanicsType": "compound",
             "url": "https://thumbs.dreamstime.com/z/exercising-end-dumbbell-one-hand-bodybuilding-target-muscles-marked-red-initial-final-steps-43502080.jpg" 
         },
         {
             "id": 15,
             "exerciseName": "lat pulldown",
-            "targetedMuscle": "back, lats, biceps",
-            "exceriseEquipment": "machine",
+            "muscle": "back, lats, biceps",
+            "equipment": "machine",
             "mechanicsType": "isolation",
             "url": "https://image.shutterstock.com/image-illustration/grip-machine-lat-pulldown-3d-600w-418402306.jpg" 
         },
         {
             "id": 16,
             "exerciseName": "chest-supported dumbbell row",
-            "targetedMuscle": "back, lats, biceps",
-            "exceriseEquipment": "dumbbell",
+            "muscle": "back, lats, biceps",
+            "equipment": "dumbbell",
             "mechanicsType": "compound",
             "url":  "https://images.squarespace-cdn.com/content/v1/55e406fbe4b0b03c5e7543ae/1492944149172-PR4BQETOMHYP5O01AFZ7/Incline+Dumbbell+Rows?format=750w"
         },
         {
             "id": 17,
             "exerciseName": "single-arm t bar row",
-            "targetedMuscle": "back, shoulders, biceps",
-            "exceriseEquipment": "barbell",
+            "muscle": "back, shoulders, biceps",
+            "equipment": "barbell",
             "mechanicsType": "isolation",
             "url": "https://chaosandpain.com/wp-content/uploads/2019/03/one-arm-barbell-row-2.png"
         },
         {
             "id": 18,
             "exerciseName": "kettlebell swings",
-            "targetedMuscle": "core, back,",
-            "exceriseEquipment": "kettlebell",
+            "muscle": "core, back,",
+            "equipment": "kettlebell",
             "mechanicsType": "compound",
             "url":  "https://www.freeaudioworkouts.com/images/05491101-Kettlebell-Swing_Kettlebell_medium.png"
         },
         {
             "id": 19,
             "exerciseName": "farmers walk",
-            "targetedMuscle": "back, shoulders",
-            "exceriseEquipment": "kettlebell",
+            "muscle": "back, shoulders",
+            "equipment": "kettlebell",
             "mechanicsType": "compound",
             "url":  "https://cdn-0.weighttraining.guide/wp-content/uploads/2019/11/Trap-bar-farmers-walk-resized.png?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1"
         },
         {
             "id": 20,
             "exerciseName": "superman",
-            "targetedMuscle": "back, rotator cuff",
-            "exceriseEquipment": "bodyonly",
+            "muscle": "back, rotator cuff",
+            "equipment": "bodyonly",
             "mechanicsType": "compound",
             "url": "https://thumbs.dreamstime.com/z/fitness-exercising-exercise-like-superman-female-target-muscles-marked-red-initial-final-steps-45723100.jpg"
         },
         {
             "id": 21,
             "exerciseName": "arnold dumbbell press",
-            "targetedMuscle": "shoulders, triceps",
-            "exceriseEquipment": "dumbbell",
+            "muscle": "shoulders, triceps",
+            "equipment": "dumbbell",
             "mechanicsType": "compound",
              "url": "complete later"  
         },
         {
             "id": 22,
             "exerciseName": "front dumbbell raise",
-            "targetedMuscle": "shoulders",
-            "exceriseEquipment": "dumbbell",
+            "muscle": "shoulders",
+            "equipment": "dumbbell",
             "mechanicsType": "compound",
             "url": "complete later"  
         },
         {
             "id": 23,
             "exerciseName": "front cable raise",
-            "targetedMuscle": "shoulders",
-            "exceriseEquipment": "machine",
+            "muscle": "shoulders",
+            "equipment": "machine",
             "mechanicsType": "isolation",
             "url": "complete later"  
         },
         {
             "id": 24,
             "exerciseName": "seated dumbbell lateral raise",
-            "targetedMuscle": "shoulders",
-            "exceriseEquipment": "dumbbell",
+            "muscle": "shoulders",
+            "equipment": "dumbbell",
             "mechanicsType": "isolation",
             "url": "complete later"  
         },
         {
             "id": 25,
             "exerciseName": "smith machine shoulder press",
-            "targetedMuscle": "shoulders, triceps",
-            "exceriseEquipment": "machine",
+            "muscle": "shoulders, triceps",
+            "equipment": "machine",
             "mechanicsType": "isolation",
             "url": "complete later"  
         },
         {
             "id": 26,
             "exerciseName": "cable lateral raise",
-            "targetedMuscle": "shoulders, traps",
-            "exceriseEquipment": "cable",
+            "muscle": "shoulders, traps",
+            "equipment": "cable",
             "mechanicsType": "isolation",
             "url": "complete later"  
         },
         {
             "id": 27,
             "exerciseName": "military press",
-            "targetedMuscle": "shoulders, triceps",
-            "exceriseEquipment": "barbell",
+            "muscle": "shoulders, triceps",
+            "equipment": "barbell",
             "mechanicsType": "compound",
             "url": "complete later"  
         },
         {
             "id": 28,
             "exerciseName": "cable reverse flys",
-            "targetedMuscle": "shoulders",
-            "exceriseEquipment": "machine",
+            "muscle": "shoulders",
+            "equipment": "machine",
             "mechanicsType": "isolation",
             "url": "complete later"  
         },
         {
             "id": 29,
             "exerciseName": "cable side-lateral",
-            "targetedMuscle": "shoulders, traps",
-            "exceriseEquipment": "machine",
+            "muscle": "shoulders, traps",
+            "equipment": "machine",
             "mechanicsType": "isolation",
             "url": "complete later"  
         },
         {
             "id": 30,
             "exerciseName": "front plate raise",
-            "targetedMuscle": "shoulders",
-            "exceriseEquipment": "plates",
+            "muscle": "shoulders",
+            "equipment": "plates",
             "mechanicsType": "isolation",
             "url": "complete later"  
         }

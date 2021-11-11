@@ -6,8 +6,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     perspective: 800px;
+}
+.title {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
 }
 
 .upper-card {
@@ -22,6 +27,7 @@ body {
     text-align: center;
     height: auto;
     background-color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
 }
 .purple{
     background-color: purple;
@@ -57,4 +63,5 @@ body {
 
 .flipCard{
     transform: rotateY(180deg);
+
 }

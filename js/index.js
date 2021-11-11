@@ -35,7 +35,7 @@ const makeUpperTile = (upper) => {
     const span = document.createElement("span")
     span.className = "upper-details"
     span.textContent = `
-        targetedMuscle: ${upper.targetedMuscle} - exceriseEquipment: ${upper.exceriseEquipment} - mechanicsType: ${upper.mechanicsType}`
+        muscle: ${upper.muscle} - equipment: ${upper.equipment} - mechanicsType: ${upper.mechanicsType}`
     
     div.addEventListener("mouseenter", function(event){
         //event.target.style.backgroundColor = "purple";
@@ -48,6 +48,7 @@ const makeUpperTile = (upper) => {
     div.addEventListener("click", flipCard);
     function flipCard(){
         div.classList.toggle("flipCard")
+        div.innerHTML = `<img src= "${upper.url}"/>`
     }
 
 
