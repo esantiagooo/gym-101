@@ -1,6 +1,7 @@
 const searchInput = () => document.querySelector("#search-input")
 const upperUl = () => document.querySelector("#upper-list")
 let upperArray = []
+//once we fetch all the excerises we store them in the array
 
 const handleErrorDisplay = (error) => {
     console.log(error)
@@ -9,7 +10,8 @@ const handleErrorDisplay = (error) => {
 const handleSearch = (e) => {
     const searchInput = e.target.value
     upperUl().innerHTML = ""
-    const selectedUpper = upperArray.filter(upper => upper.exerciseName.toLowerCase().startsWith(searchInput.toLowerCase()))
+    const selectedUpper = upperArray.filter(upper => upper.muscle.toLowerCase().includes(searchInput.toLowerCase()))
+    
     if (searchInput === "") {
         upperArray.forEach(makeUpperTile)
     } else if (selectedUpper.length === 0) {
@@ -48,7 +50,13 @@ const makeUpperTile = (upper) => {
     div.addEventListener("click", flipCard);
     function flipCard(){
         div.classList.toggle("flipCard")
-        div.innerHTML = `<img src= "${upper.url}"/>`
+        const upperImg = document.querySelector(`#pic-${upper.id}`)
+        if (!upperImg){
+            div.innerHTML = `<img  id = "pic-${upper.id}" src= "${upper.url}"/>`   
+        } else{ 
+            upperImg.replaceWith(span)
+            
+        }
     }
 
 
@@ -85,11 +93,5 @@ const handlePageLoaded = () => {
 }
 
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
-//const handleLoaded = () => {
-    //create 3 boxes or a box per muscle group
-    //attach an event listener a click listner 
-    // put them on the page queryselector
-    // have an array musclegroups = ["shoulders, "chest", "back"]
-    //muscleGroup.ForEach
-//}
-//document.addEventListener("DOMContentLoaded", handleLoaded) 
+// DOMContentLoaded is the first event triggering as soon as the page loaded
+ 
