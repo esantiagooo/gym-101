@@ -2,7 +2,7 @@
 
 ## Description
 
-Shows Catalog is a JS application that leverages DOM manipulation to interact with the user. I built this project because I'm passionate about movies and attend film school. ["http://example.com"](Check out my blog about the project, there I get more into details about some of its features!)
+Gym 101 is a JS application that leverages DOM manipulation to interact with the user. I drew inspiration in building this project by infusing some of my early on newbie exercises, which helped me during my fitness journey. So much like my journey now I wanted to share what I know. ["http://example.com"](Check out my blog about the project, there I get more into details about some of its features!)
 
 ## Installation
 
