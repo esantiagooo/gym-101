@@ -2,8 +2,7 @@
 
 ## Description
 
-Gym 101 is a JS application that leverages DOM manipulation to interact with the user. I drew inspiration in building this project by infusing some of my early on newbie exercises, which helped me during my fitness journey. So much like my journey now I wanted to share what I know. ["http://example.com"](Check out my blog about the project, there I get more into details about some of its features!)
-
+Gym 101 is a JS application that leverages DOM manipulation to interact with the user. I drew inspiration in building this project by infusing some of my early on newbie exercises, which helped me during my fitness journey. In other words rather than searching up public API's, I built my own API complied with my own resources. The familiarity made the transition smoother and in advance the premise is simple yet effective. The core of the excercises are related to anything upper, meaning chest, back shoulder's etc. As I mention before it is in fact very newbie, So much like my journey now I wanted to share what I know. 
 ## Installation
 
 To install, just fork and clone this repository. Once you cloned it in your terminal, make sure you `cd` into the correct folder.
