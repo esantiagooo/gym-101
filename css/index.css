@@ -76,9 +76,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
-/* .content {
-    cursor: url(image.png) auto;
-} */
+
 #search-input {
     border: solid;
     width: auto;
