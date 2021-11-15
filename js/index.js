@@ -3,9 +3,9 @@ const upperUl = () => document.querySelector("#upper-list")
 let upperArray = []
 //once we fetch all the excerises we store them in the array
 
-const handleErrorDisplay = (error) => {
-    console.log(error)
-}
+// const handleErrorDisplay = (error) => {
+//     console.log(error)
+// }
 
 const handleSearch = (e) => {
     const searchInput = e.target.value
@@ -19,7 +19,7 @@ const handleSearch = (e) => {
     } else{
         selectedUpper.forEach(makeUpperTile)
     }
-    //selectedUpper().value = ""
+    
 }
 
 const returnNone = () => {
