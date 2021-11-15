@@ -79,5 +79,5 @@ const handlePageLoaded = () => {
 }
 
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
-// DOMContentLoaded is the first event triggering as soon as the page loaded
+
  
