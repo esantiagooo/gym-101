@@ -32,7 +32,7 @@ const makeUpperTile = (upper) => {
     const span = document.createElement("span")
     span.className = "upper-details"
     span.textContent = `
-        muscle: ${upper.muscle} - equipment: ${upper.equipment} - mechanicsType: ${upper.mechanicsType}`
+        muscle: ${upper.muscle} - equipment: ${upper.equipment} - mechanics: ${upper.mechanics}`
     
     div.addEventListener("mouseenter", function(event){
         //event.target.style.backgroundColor = "purple";
