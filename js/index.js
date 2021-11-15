@@ -2,7 +2,6 @@ const searchInput = () => document.querySelector("#search-input")
 const upperUl = () => document.querySelector("#upper-list")
 let upperArray = []
 
-
 const handleSearch = (e) => {
     const searchInput = e.target.value
     upperUl().innerHTML = ""
