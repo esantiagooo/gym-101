@@ -58,15 +58,6 @@ const makeUpperTile = (upper) => {
             
         }
     }
-
-
-    //let upperUl = document.getElementById("upperUl")
-    //upperUl.addEventListener("mouseenter", function(){
-     //   event.target.style.color = "purple";
-     //   setTimeout(function(){
-     //       event.target.style.color = " ";
-     //   }, 500);
-    //}, false);
         div.append(title, span)
     upperUl().appendChild(div)    
 }
