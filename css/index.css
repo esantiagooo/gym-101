@@ -15,6 +15,7 @@ body {
     font-size: x-large;
     border-color: white;
     border: solid;
+   
 }
 .title:hover{
     color: gold;
@@ -70,3 +71,9 @@ body {
     transform: rotateY(180deg);
 
 }
+html {
+    scroll-behavior: smooth;
+}
+/* .content {
+    cursor: url(image.png) auto;
+} */
