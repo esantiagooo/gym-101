@@ -35,10 +35,10 @@ const makeUpperTile = (upper) => {
         muscle: ${upper.muscle} - equipment: ${upper.equipment} - mechanics: ${upper.mechanics}`
     
     div.addEventListener("mouseenter", function(event){
-        //event.target.style.backgroundColor = "purple";
+       
         event.target.classList.add("purple")
         setTimeout(function(){
-            //event.target.style.backgroundColor = "black";
+            
             event.target.classList.remove("purple")
         },500)
     }, false);
