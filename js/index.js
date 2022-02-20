@@ -1,9 +1,12 @@
 const searchInput = () => document.querySelector("#search-input")
+// querySelector method returns the first element that matches the id search-input
 const upperUl = () => document.querySelector("#upper-list")
+//querySelector method returns an element with an id of upper-list
 let upperArray = []
 
 const handleSearch = (e) => {
     const searchInput = e.target.value
+    //e.target.value is the value property of some DOM element.In this case the text entered in the search input.
     upperUl().innerHTML = ""
     const selectedUpper = upperArray.filter(upper => upper.muscle.toLowerCase().includes(searchInput.toLowerCase()))
     
@@ -49,7 +52,7 @@ const makeUpperTile = (upper) => {
         if (!upperImg){
             div.innerHTML = `<img  id = "pic-${upper.id}" src= "${upper.url}"/>`   
         } else{ 
-            upperImg.replaceWith(span)
+            upperImg.replaceWith(title, span)
             
         }
     }
@@ -80,4 +83,4 @@ const handlePageLoaded = () => {
 
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
 
- 
+  
