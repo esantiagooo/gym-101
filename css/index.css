@@ -79,3 +79,6 @@ html {
 h2#upper-header{
     font-size:x-large;
 }
+#search{
+    border: solid;
+}
