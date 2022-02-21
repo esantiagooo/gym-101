@@ -40,13 +40,13 @@ body {
 .purple{
     background-color: purple;
 }
-#title-section h2, #show-header {
+/* .h2, #show-header {
     font-family: 'Anton', sans-serif; ;
     margin: 0;
     font-size: 3.5em;
     color: white;
     text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
-}
+} */
 
 .front {
     position: absolute;
@@ -76,9 +76,9 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
-#search-input {
+h2#upper-header{
+    font-size:x-large;
+}
+#search{
     border: solid;
-    width: auto;
-    border-color: black;
 }
