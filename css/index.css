@@ -81,4 +81,6 @@ h2#upper-header{
 }
 #search{
     border: solid;
+    width: auto;
+    text-align: center;
 }
