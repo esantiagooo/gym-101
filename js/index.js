@@ -6,9 +6,12 @@ let upperArray = []
 
 const handleSearch = (e) => {
     const searchInput = e.target.value
-    //e.target.value is the value property of some DOM element.In this case the text entered in the search input.
+    
+    // e.target.value is the value property of some DOM element.In this case the text entered in the search input.
     upperUl().innerHTML = ""
-    const selectedUpper = upperArray.filter(upper => upper.muscle.toLowerCase().includes(searchInput.toLowerCase()))
+    const selectedUpper = upperArray.filter(upper => upper.muscle.toLowerCase().includes(searchInput.toLowerCase()) ||
+    upper.equipment.toLowerCase().includes(searchInput.toLowerCase()))
+
     
     if (searchInput === "") {
         upperArray.forEach(makeUpperTile)
@@ -28,14 +31,17 @@ const makeUpperTile = (upper) => {
     const div = document.createElement("div")
     div.id = `upper-card-${upper.id}`
     div.className = 'upper-card'
+    // creating a div and giving it an id as well as a classname.
 
     const title = document.createElement("h2")
     title.textContent = upper.exerciseName
+    //The div is given an H2 element for the title of the exercise.
 
     const span = document.createElement("span")
     span.className = "upper-details"
     span.textContent = `
         muscle: ${upper.muscle} - equipment: ${upper.equipment} - mechanics: ${upper.mechanics}`
+        //span contains the details of the workout such as, muscle, equipment and mechanics.
     
     div.addEventListener("mouseenter", function(event){
        
@@ -59,6 +65,7 @@ const makeUpperTile = (upper) => {
         div.append(title, span)
     upperUl().appendChild(div)    
 }
+
 
 const displayUpper = (upper) => {
     upperArray = upper
